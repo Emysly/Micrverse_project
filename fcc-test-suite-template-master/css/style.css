@@ -1,4 +1,45 @@
-img {
-  width: 100%;
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+#img-div {
   display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+img {
+  max-width: 100%;
+  display: block;
+  padding-bottom: 1rem;
+}
+#img-caption {
+  float: right;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+#title {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
+#tribute-link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#tribute-info {
+  padding: 2rem;
+  line-height: 2rem;
+  width: 50%;
+  margin: 2rem auto;
+}
+.footer {
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
 }
