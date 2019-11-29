@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>challenge Two</title>
+</head>
+<style>
+body{
+    background: #eee;
+}
+#title{
+    text-align: center;
+    margin: 1rem;
+    color: grey;
+}
+#description{
+    text-align: center;
+}
+#survey-form{
+    width: 30%;
+    margin: 2rem auto;
+   
+}
+input{
+    border-radius: 2rem;
+    margin: 1rem;
+
+}
+label{
+    float: right;
+}
+input::focus{
+    outline: none;
+}
+</style>
+<body>
+        <div class="container">
+    <h1 id="title">The Microverse Survey Form</h1>
+    
+        <p id="description">This form is to collect Valid information about every applicant</p>
+    <form  id="survey-form">
+        <input type="text" class="input input-group" id="name" placeholder="Enter your name" required>
+        <label  id="name-label" >Enter your name.</label>
+        <input type="email" id="email" class="input input-group" placeholder="Enter a valid Email" required>
+        <label  id="email-label">Enter a valid Email.</label>
+        <input type="number" id="number" class="input input-group" placeholder="Enter your 10 digit numbers">
+        <label  id="number-label">Enter your number.</label>
+    </form>
+    </div>
+</body>
+</html>
